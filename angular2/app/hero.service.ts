@@ -5,7 +5,9 @@ import { Customer } from './domain/customer';
 import { HEROES } from './mock-heroes';
 import { LEVELS } from './mock-levels';
 
-
+/*
+Plus one
+*/
 @Injectable()
 export class HeroService {
 	getHeroes(): Promise<Hero[]> {
